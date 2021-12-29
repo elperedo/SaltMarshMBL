@@ -8,17 +8,16 @@ files.
 list of bins per assembly XX.bin.list.txt
 list of samples. srr.files.txt
 
-# ALJR
-# 1. extract ID of each contig of each bin.
+### 1. extract ID of each contig of each bin.
 ```
 for sample in `cat ALJRbin.list.txt`; do grep '^>' /groups/spartina/metagenomes_analysis/sulfur.40bin.RENAMED_BINS/renamedbins/${sample}.fa >${sample}_ID.txt; done
 ```
-# 2. prepareID file
+### 2. prepareID file
 ```
 for sample in `cat ALJRbin.list.txt`; do sed 's/>//' ${sample}_ID.txt > ${sample}_ID2.txt; done
 for sample in `cat ALJRbin.list.txt`; do echo -e "ContigID" | cat - ${sample}_ID2.txt > 00${sample}_ID2.txt_renamed; done
 ```
-# 3. loop to extract quantification data.
+### 3. loop to extract quantification data.
 ```
 for sample in `cat ALJRbin.list.txt`; do for line in `cat srr.files.txt`; do grep -Fwf  ${sample}_ID2.txt /groups/spartina/metagenomes_analysis/sulfur.40bin.HEATMAPS/others/ALJr/quant_files/${line}.quant.counts > ${sample}.${line}.count; done ; done
 
@@ -27,13 +26,13 @@ for sample in `cat ALJRbin.list.txt`; do for line in `cat srr.files.txt`; do awk
 for sample in `cat ALJRbin.list.txt`; do mkdir graph_${sample}; done
 ```
 
-# 4. rename for contig based graph
+### 4. rename for contig based graph
 ```
 for sample in `cat ALJRbin.list.txt`; do for line in `cat srr.files.txt`; do echo -e "${line}" | cat - ${sample}.${line}.count2 > ${sample}.${line}.count2_renamed; done; done
 
 for sample in `cat ALJRbin.list.txt`; do paste 00${sample}_ID2.txt_renamed ${sample}.*.count2_renamed | pr -t  >./graph_${sample}/${sample}_final.counts_renamed; done
 ```
-# 5. sort for size based graph (low to high)
+### 5. sort for size based graph (low to high)
 ```
 for sample in `cat ALJRbin.list.txt`; do for line in `cat srr.files.txt`; do echo -e "${line}" | sort -n ${sample}.${line}.count2 > ${sample}.${line}.count2_sorted; done; done
 
