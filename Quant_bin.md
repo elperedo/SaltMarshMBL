@@ -44,3 +44,34 @@ rm *count*
 
 rm *ID*
 ```
+
+## R script for graphing
+```
+#import data
+
+
+
+dt <- read.delim("/groups/spartina/metagenomes_analysis/sulfur.40bin.HEATMAPS/linear.graphs/grap_plot_ordered
+/Rowley.Spatens.bin.16_final.counts_sortedrenamed")
+
+library(ggplot2)
+df <- data.frame(dt)
+str(df)
+library(tidyverse)
+
+pdf("Rowley.Spatens.bin.16_final_line_rplot.pdf") 
+
+df_long = df %>% 
+  mutate(contig = 1:nrow(.)) %>% 
+  gather(contig.vars, CPM, -contig) 
+
+df_long %>% 
+  ggplot(aes(y = CPM, x = contig, group = contig.vars, color =contig.vars)) + 
+  geom_line(size = 1) +
+  scale_linetype_manual(values=c("SRR10854653", "SRR11061153", "SRR11061154", "SRR11567157", "SRR11567260", "SRR11567261", "SRR11828593", "SRR11828800", "SRR11828889", "SRR11828899", "SRR11829000", "SRR11829102", "SRR11829104", "SRR11829268", "SRR11829269", "SRR12659820", "SRR9045291", "SRR9045292", "SRR9045293", "SRR9045294", "SRR9045295", "SRR9045296", "SRR9045297", "SRR9045298"))+
+  scale_color_manual(values=c("darkgreen", "darkolivegreen3", "darkolivegreen3", "darkgreen", "darkolivegreen3", "darkolivegreen3", "darkgoldenrod2", "darkorange4", "darkgoldenrod2", "darkorange4", "darkorange4", "darkgoldenrod2", "darkorange4", "darkgoldenrod2", "darkorange4", "darkgoldenrod2", "darkolivegreen3", "darkgreen", "darkgreen", "darkolivegreen3", "darkolivegreen3", "darkgreen", "darkolivegreen3", "darkgreen"))+
+  scale_size_manual(values=c(1, 1))+
+  theme(legend.position="none")
+dev.off() 
+
+```
