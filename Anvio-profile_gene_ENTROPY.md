@@ -18,15 +18,15 @@ anvi-gen-variability-profile -p RowleySpatensbin16/PROFILE.db -c RowleySpatensbi
 https://merenlab.org/2015/07/20/analyzing-variability/
 ### Gene specific variability
 #### CDN
-
+```
 anvi-gen-variability-profile -p RowleySpatensbin16/PROFILE.db -c RowleySpatensbin16.db  --compute-gene-coverage-stats -x 1 --min-coverage-in-each-sample 0 --engine CDN -o ROSP16.HouseKeeping_variability.CDN.txt   --gene-caller-ids 816,1253,2141,2150,2138,2156,2147,1319,2134,209,3114,2136,2133,2142,1392,3115,726,2139,2131,2149,2935,1717,1766,208,2473,2132,2143,2146,1666,2535,2130,2154,2153,2144,272,1323,2140,1668,172,383,409,555,706,1555,1788,1943,2330,2852,2907,2135,959,1008,2453,665,2137,848,2148,1669,2145,1252,2155,734,1967,2019,206,430,2079,334,2129,3061,1391,693,2445,958,201,1133,267,579,2128,674,945,1343,2030,856,138,3146,3148,3149,760,1311,1310,298,792,3150,2957,2318,2470,473,2033,3004,2331,2856,142,1258,1515,820,1161,1233,1990,1552,1723,757,761,768,767,766,2851,1221,1222 --include-site-pnps  --include-additional-data --include-split-names --include-contig-names --kiefl-mode
-
+```
 #no need to remove the outliers.
 "non_outlier_gene_coverage is a measure of gene coverage that excludes nucleotide positions outlier coverage values. The criterion is that the average coverage is computed over nucleotides that are within plus or minus 1.5 times the MAD (median absolute deviation) of the median coverage value. We took this idea from this paper and we like it very much because it does a good job at excluding sequence motifs that are conserved between species/populations and therefore recruit unrealistically high coverage values. -1 if position is not in a called gene."
 outliers seem to be excluded already.
 
 
 ##### NT
-
+```
 anvi-gen-variability-profile -p RowleySpatensbin16/PROFILE.db -c RowleySpatensbin16.db   --compute-gene-coverage-stats -x 1 --min-coverage-in-each-sample 0 --engine NT -o ROSP16.HouseKeeping_variability.NT.txt   --gene-caller-ids 816,1253,2141,2150,2138,2156,2147,1319,2134,209,3114,2136,2133,2142,1392,3115,726,2139,2131,2149,2935,1717,1766,208,2473,2132,2143,2146,1666,2535,2130,2154,2153,2144,272,1323,2140,1668,172,383,409,555,706,1555,1788,1943,2330,2852,2907,2135,959,1008,2453,665,2137,848,2148,1669,2145,1252,2155,734,1967,2019,206,430,2079,334,2129,3061,1391,693,2445,958,201,1133,267,579,2128,674,945,1343,2030,856,138,3146,3148,3149,760,1311,1310,298,792,3150,2957,2318,2470,473,2033,3004,2331,2856,142,1258,1515,820,1161,1233,1990,1552,1723,757,761,768,767,766,2851,1221,1222  --include-site-pnps  --include-split-names --include-contig-names --quince-mode
-
+```
