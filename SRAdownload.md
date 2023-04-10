@@ -1,6 +1,6 @@
 # SRA download
 
-The data fileq are over 50Gb. 
+The data files are over 50Gb. 
 Fastq-dump or fasterq-dump do not really work for files this size. 
 Use prefetch instead, this downloads sra files which are ~5Gb (including F and R reads!)
 
