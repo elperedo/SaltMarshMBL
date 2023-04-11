@@ -1,4 +1,4 @@
-### prepare assembly
+### Prepare assembly files
 ##Copy file to folder, filter out contigs lengh <1000
 
 anvi-script-reformat-fasta /groups/spartina/metagenomes_analysis/DGR.bin.ANVIO/DGR.Alabama.Jroemerianus.bin.15/Alabama.Jroemerianus.bin.15.fa -o AlabamaJroemerianusbin15-2.fa -l 1000 --simplify-names  –report-file
@@ -51,9 +51,6 @@ sed -i 's/>/>genecall_/' protein-sequences.fa
 #upload protein.fa to ghost koala
 
 #https://www.kegg.jp/ghostkoala/
-
-#results
-#https://www.kegg.jp/kegg-bin/blastkoala_result?id=b81fe155831515fc00f4fecc5bb15ee32cbcc56f532b&passwd=niFOqX&type=ghostkoala
 
 ##### import annotations
 
