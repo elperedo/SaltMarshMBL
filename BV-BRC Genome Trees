@@ -1,8 +1,6 @@
 https://www.bv-brc.org/app/PhylogeneticTree
 
-RAxML version 8.2.11
-
-# SOX tree
+# Fig. 3 SOX tree
 ## Tree Analysis Statistics
 ### Max allowed deletions	5
 ### Max allowed duplications	5
@@ -14,6 +12,7 @@ Alignment program	mafft
 Num aligned amino acids	52712
 Num CDS alignments	100
 Num aligned nucleotides	158136
+RAxML version 8.2.11
 Best protein model found by RAxML	LG
 Branch support method	RAxML Fast Bootstrapping
 RAxML likelihood	-6743388.0980
