@@ -24,3 +24,176 @@ raxmlHPC-PTHREADS-SSE3 -s SOX07162023_proteins.afa -n SOX_proteins -m PROTCATAUT
 #### Goal: Find best tree.
 raxmlHPC-PTHREADS-SSE3 -s SOX07162023.afa -n SOX -m GTRCAT -q SOX07162023.partitions -p 12345 -T 12 -f a -x 12345 -N 100
 
+Gene Family Statistics
+Gene families are ranked by alignment score combining mean per-position variability, alignment length, and gappiness.
+PGFam	Align.Score	Align.Length	Num. Seqs	Mean. Sqr Freq	Prop. Gaps	Used In. Analysis	Product
+PGF_00416410	18.74	1274	51	0.525	0.202	True	Carbamoyl-phosphate synthase large chain (EC 6.3.5.5)
+PGF_00057483	15.09	425	51	0.732	0.031	True	Transcription termination factor Rho
+PGF_03104485	14.73	738	54	0.542	0.121	True	Polyribonucleotide nucleotidyltransferase (EC 2.7.7.8)
+PGF_00016323	14.62	818	53	0.511	0.164	True	ATP-dependent Clp protease ATP-binding subunit ClpA
+PGF_08675943	14.56	1342	50	0.397	0.196	True	Transcription-repair coupling factor
+PGF_07830674	14.54	945	54	0.473	0.149	True	Alanyl-tRNA synthetase (EC 6.1.1.7)
+PGF_03272313	14.23	987	49	0.453	0.193	True	DNA gyrase subunit A (EC 5.99.1.3)
+PGF_00416129	13.95	620	53	0.560	0.137	True	CTP synthase (EC 6.3.4.2)
+PGF_01175575	13.74	720	53	0.512	0.146	True	Threonyl-tRNA synthetase (EC 6.1.1.3)
+PGF_10048015	13.70	519	54	0.601	0.089	True	Inosine-5'-monophosphate dehydrogenase (EC 1.1.1.205) / CBS domain
+PGF_00016338	13.62	439	51	0.650	0.070	True	ATP-dependent Clp protease ATP-binding subunit ClpX
+PGF_06005188	13.53	731	50	0.500	0.150	True	DNA topoisomerase IV subunit B (EC 5.99.1.3)
+PGF_05195027	13.49	531	54	0.586	0.190	True	ATP synthase beta chain (EC 3.6.3.14)
+PGF_00060414	13.41	622	51	0.538	0.133	True	Translation elongation factor LepA
+PGF_10525419	13.12	999	54	0.415	0.179	True	Translation initiation factor 2
+PGF_07396749	12.95	501	50	0.578	0.135	True	Biotin carboxylase of acetyl-CoA carboxylase (EC 6.3.4.14)
+PGF_00006935	12.94	577	53	0.539	0.141	True	GMP synthase [glutamine-hydrolyzing], amidotransferase subunit (EC 6.3.5.2) / GMP synthase [glutamine-hydrolyzing], ATP pyrophosphatase subunit (EC 6.3.5.2)
+PGF_05760069	12.74	448	52	0.602	0.041	True	Histidinol dehydrogenase (EC 1.1.1.23)
+PGF_00062027	12.19	453	50	0.573	0.147	True	Tryptophan synthase beta chain (EC 4.2.1.20)
+PGF_05581732	12.16	463	51	0.565	0.093	True	Protein translocase subunit SecY
+PGF_00037588	12.09	631	52	0.481	0.154	True	Prolyl-tRNA synthetase (EC 6.1.1.15), bacterial type
+PGF_07063065	12.02	589	53	0.495	0.148	True	Transcription termination protein NusA
+PGF_00013509	11.96	598	52	0.489	0.178	True	IMP cyclohydrolase (EC 3.5.4.10) / Phosphoribosylaminoimidazolecarboxamide formyltransferase (EC 2.1.2.3)
+PGF_06522349	11.95	547	53	0.511	0.143	True	Aspartyl-tRNA(Asn) amidotransferase subunit A (EC 6.3.5.6) @ Glutamyl-tRNA(Gln) amidotransferase subunit A (EC 6.3.5.7)
+PGF_02277678	11.91	416	53	0.584	0.072	True	Phosphoglycerate kinase (EC 2.7.2.3)
+PGF_00007012	11.80	380	51	0.605	0.073	True	GTP-binding and nucleic acid-binding protein YchF
+PGF_00067554	11.78	553	52	0.501	0.171	True	Aspartyl-tRNA(Asn) amidotransferase subunit B (EC 6.3.5.6) @ Glutamyl-tRNA(Gln) amidotransferase subunit B (EC 6.3.5.7)
+PGF_04425336	11.72	490	51	0.530	0.152	True	NADH-ubiquinone oxidoreductase chain F (EC 1.6.5.3)
+PGF_00050995	11.68	561	52	0.493	0.137	True	Amidophosphoribosyltransferase (EC 2.4.2.14)
+PGF_02226715	11.68	820	54	0.408	0.186	True	ATP-dependent DNA helicase RecG (EC 3.6.4.12)
+PGF_00489714	11.66	361	51	0.614	0.085	True	Porphobilinogen synthase (EC 4.2.1.24)
+PGF_00033359	11.64	401	53	0.581	0.099	True	Phospho-N-acetylmuramoyl-pentapeptide-transferase (EC 2.7.8.13)
+PGF_00015855	11.62	363	53	0.610	0.098	True	Ketol-acid reductoisomerase (NADP(+)) (EC 1.1.1.86)
+PGF_10301134	11.57	410	54	0.571	0.079	True	Chaperone protein DnaJ
+PGF_06935032	11.45	497	54	0.514	0.165	True	Adenylosuccinate synthetase (EC 6.3.4.4)
+PGF_05387084	11.25	474	53	0.517	0.134	True	Gamma-glutamyl phosphate reductase (EC 1.2.1.41)
+PGF_00843497	11.17	485	54	0.507	0.146	True	Cell division protein FtsA
+PGF_00048782	11.14	364	50	0.584	0.126	True	Ribose-phosphate pyrophosphokinase (EC 2.7.6.1)
+PGF_00052238	11.04	582	54	0.458	0.227	True	Signal recognition particle protein Ffh
+PGF_01137124	10.99	497	53	0.493	0.124	True	Phosphoglucosamine mutase (EC 5.4.2.10)
+PGF_07750515	10.98	497	52	0.492	0.155	True	Phosphoribosylamine--glycine ligase (EC 6.3.4.13)
+PGF_00008335	10.98	513	50	0.485	0.110	True	Glutamyl-tRNA synthetase (EC 6.1.1.17)
+PGF_00051525	10.96	461	49	0.511	0.127	True	Seryl-tRNA synthetase (EC 6.1.1.11)
+PGF_05562713	10.93	1044	55	0.338	0.173	True	[Protein-PII] uridylyltransferase (EC 2.7.7.59) / [Protein-PII]-UMP uridylyl-removing enzyme
+PGF_07276470	10.90	919	52	0.359	0.208	True	NADH-ubiquinone oxidoreductase chain G (EC 1.6.5.3)
+PGF_02061452	10.88	433	54	0.523	0.162	True	Queuine tRNA-ribosyltransferase (EC 2.4.2.29)
+PGF_00033095	10.84	963	51	0.349	0.222	True	Phenylalanyl-tRNA synthetase beta chain (EC 6.1.1.20)
+PGF_00030640	10.80	375	53	0.558	0.066	True	Peptide chain release factor 1
+PGF_00011081	10.71	817	51	0.375	0.146	True	Helicase PriA essential for oriC/DnaA-independent DNA replication
+PGF_05399159	10.68	329	52	0.589	0.057	True	Acetyl-coenzyme A carboxyl transferase alpha chain (EC 6.4.1.2)
+PGF_00062045	10.66	426	53	0.516	0.113	True	Tryptophanyl-tRNA synthetase (EC 6.1.1.2)
+PGF_07072582	10.64	899	51	0.355	0.333	True	RNA polymerase sigma factor RpoD
+PGF_04962192	10.63	1018	53	0.333	0.279	True	3'-to-5' exoribonuclease RNase R
+PGF_05935795	10.62	509	52	0.471	0.171	True	Replication-associated recombination protein RarA
+PGF_00926109	10.60	726	54	0.393	0.221	True	Arginyl-tRNA synthetase (EC 6.1.1.19)
+PGF_07629184	10.55	552	54	0.449	0.124	True	Cytosol aminopeptidase PepA (EC 3.4.11.1)
+PGF_02019462	10.55	382	52	0.540	0.116	True	Phenylalanyl-tRNA synthetase alpha chain (EC 6.1.1.20)
+PGF_00063999	10.53	524	54	0.460	0.141	True	UDP-N-acetylmuramate--L-alanine ligase (EC 6.3.2.8)
+PGF_00421792	10.50	572	53	0.439	0.229	True	DNA repair protein RadA
+PGF_09129813	10.49	411	51	0.517	0.094	True	Glutamate 5-kinase (EC 2.7.2.11) / RNA-binding C-terminal domain PUA
+PGF_10471233	10.39	1197	53	0.300	0.403	True	ATP-dependent DNA helicase UvrD/PcrA (EC 3.6.4.12)
+PGF_02862285	10.36	698	51	0.392	0.426	True	Argininosuccinate synthase (EC 6.3.4.5)
+PGF_00020172	10.27	302	53	0.591	0.145	True	2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase (EC 2.3.1.117)
+PGF_08155727	10.26	1161	52	0.301	0.371	True	DNA translocase FtsK
+PGF_05949521	10.26	996	51	0.325	0.381	True	Protein translocase subunit SecD
+PGF_08562657	10.22	580	53	0.424	0.262	True	tRNA-i(6)A37 methylthiotransferase (EC 2.8.4.3)
+PGF_00422271	10.21	351	50	0.545	0.086	True	DNA-directed RNA polymerase alpha subunit (EC 2.7.7.6)
+PGF_00056662	10.20	372	52	0.529	0.082	True	Anthranilate phosphoribosyltransferase (EC 2.4.2.18)
+PGF_08454293	10.13	490	51	0.458	0.099	True	N-acetylglucosamine-1-phosphate uridyltransferase (EC 2.7.7.23) / Glucosamine-1-phosphate N-acetyltransferase (EC 2.3.1.157)
+PGF_01054379	9.99	511	51	0.442	0.133	True	Adenylosuccinate lyase (EC 4.3.2.2) @ SAICAR lyase (EC 4.3.2.2)
+PGF_00024234	9.96	443	52	0.473	0.149	True	N-succinyl-L,L-diaminopimelate desuccinylase (EC 3.5.1.18)
+PGF_00033954	9.95	418	52	0.487	0.172	True	Phosphoribosylformylglycinamidine cyclo-ligase (EC 6.3.3.1)
+PGF_00007024	9.91	538	52	0.427	0.162	True	GTP-binding protein EngA
+PGF_00009967	9.89	367	54	0.516	0.219	True	Glycyl-tRNA synthetase alpha chain (EC 6.1.1.14)
+PGF_00064460	9.89	602	53	0.403	0.162	True	Ubiquinone biosynthesis regulatory protein kinase UbiB
+PGF_00027514	9.86	435	53	0.473	0.115	True	N-acetylornithine aminotransferase (EC 2.6.1.11)
+PGF_10130596	9.82	456	51	0.460	0.097	True	Lipoprotein releasing system transmembrane protein LolC/LolE
+PGF_00024746	9.80	534	51	0.424	0.133	True	NADH-ubiquinone oxidoreductase chain N (EC 1.6.5.3)
+PGF_00423732	9.78	354	50	0.520	0.134	True	4-hydroxy-3-methylbut-2-enyl diphosphate reductase (EC 1.17.7.4)
+PGF_04139053	9.73	433	52	0.468	0.195	True	Uroporphyrinogen III decarboxylase (EC 4.1.1.37)
+PGF_07235150	9.71	639	55	0.384	0.197	True	Peptidoglycan lipid II flippase MurJ
+PGF_00549302	9.57	620	53	0.384	0.274	True	Carboxyl-terminal protease (EC 3.4.21.102)
+PGF_00039342	9.55	323	51	0.531	0.162	True	2-Keto-3-deoxy-D-manno-octulosonate-8-phosphate synthase (EC 2.5.1.55)
+PGF_00417658	9.51	463	52	0.442	0.207	True	3-dehydroquinate synthase (EC 4.2.3.4)
+PGF_02346669	9.47	338	54	0.515	0.114	True	Ornithine carbamoyltransferase (EC 2.1.3.3)
+PGF_02029783	9.43	454	53	0.442	0.226	True	GTP-binding protein Obg
+PGF_00420953	9.42	371	52	0.489	0.166	True	3-oxoacyl-[acyl-carrier-protein] synthase, KASIII (EC 2.3.1.180)
+PGF_10245672	9.41	240	52	0.607	0.089	True	Ribulose-phosphate 3-epimerase (EC 5.1.3.1)
+PGF_00618776	9.38	438	53	0.448	0.164	True	23S rRNA (adenine(2503)-C(2))-methyltransferase @ tRNA (adenine(37)-C(2))-methyltransferase (EC 2.1.1.192)
+PGF_10302926	9.22	754	54	0.336	0.229	True	Cell division protein FtsI [Peptidoglycan synthetase] (EC 2.4.1.129)
+PGF_06629251	9.19	326	53	0.509	0.197	True	Methionine aminopeptidase (EC 3.4.11.18)
+PGF_07915158	9.17	399	52	0.459	0.164	True	N(6)-L-threonylcarbamoyladenine synthase (EC 2.3.1.234)
+PGF_02797400	9.15	757	53	0.333	0.400	True	Cysteinyl-tRNA synthetase (EC 6.1.1.16)
+PGF_00416674	9.11	427	54	0.441	0.163	True	3,4-dihydroxy-2-butanone 4-phosphate synthase (EC 4.1.99.12) / GTP cyclohydrolase II (EC 3.5.4.25)
+PGF_00013803	9.06	222	52	0.608	0.108	True	Imidazoleglycerol-phosphate dehydratase (EC 4.2.1.19)
+PGF_00419627	9.03	400	51	0.452	0.237	True	Coproporphyrinogen III oxidase, aerobic (EC 1.3.3.3)
+PGF_00033946	9.02	272	54	0.547	0.111	True	Phosphoribosylformimino-5-aminoimidazole carboxamide ribotide isomerase (EC 5.3.1.16)
+PGF_00033289	9.02	392	51	0.455	0.136	True	Phosphate:acyl-ACP acyltransferase PlsX (EC 2.3.1.n2)
+PGF_00008075	8.88	491	53	0.401	0.205	True	Glutamate N-acetyltransferase (EC 2.3.1.35) @ N-acetylglutamate synthase (EC 2.3.1.1)
+PGF_00423089	8.86	429	52	0.428	0.161	True	Diaminohydroxyphosphoribosylaminopyrimidine deaminase (EC 3.5.4.26) / 5-amino-6-(5-phosphoribosylamino)uracil reductase (EC 1.1.1.193)
+PGF_00549380	8.81	361	54	0.463	0.200	False	4-hydroxy-tetrahydrodipicolinate synthase (EC 4.3.3.7)
+PGF_00020984	8.77	339	53	0.476	0.152	False	Methenyltetrahydrofolate cyclohydrolase (EC 3.5.4.9) / Methylenetetrahydrofolate dehydrogenase (NADP+) (EC 1.5.1.5)
+PGF_03520151	8.67	653	53	0.339	0.394	False	Cell division protein FtsZ
+PGF_00026453	8.59	420	51	0.419	0.294	False	Acetyl-coenzyme A carboxyl transferase beta chain (EC 6.4.1.2)
+PGF_00285620	8.57	259	50	0.533	0.187	False	ATP-dependent Clp protease proteolytic subunit ClpP (EC 3.4.21.92)
+PGF_01176589	8.46	280	51	0.505	0.086	False	4-hydroxy-tetrahydrodipicolinate reductase (EC 1.17.1.8)
+PGF_06162930	8.45	583	52	0.350	0.228	False	UDP-N-acetylmuramoyl-L-alanine--D-glutamate ligase (EC 6.3.2.9)
+PGF_10461681	8.41	1662	52	0.206	0.487	False	Ribonuclease E (EC 3.1.26.12)
+PGF_05767868	8.39	311	52	0.476	0.206	False	Probable transcriptional regulatory protein YebC
+PGF_06936561	8.30	356	53	0.440	0.187	False	Translation elongation factor Ts
+PGF_02390924	8.28	375	50	0.427	0.169	False	16S rRNA (cytosine(1402)-N(4))-methyltransferase (EC 2.1.1.199)
+PGF_04574228	8.26	266	51	0.506	0.082	False	Triosephosphate isomerase (EC 5.3.1.1)
+PGF_00007028	8.24	555	53	0.350	0.275	False	Ribosome LSU-associated GTP-binding protein HflX
+PGF_03004613	8.24	602	52	0.336	0.311	False	Histidyl-tRNA synthetase (EC 6.1.1.21)
+PGF_00417840	8.24	767	51	0.297	0.537	False	Chorismate synthase (EC 4.2.3.5)
+PGF_00420903	8.19	439	53	0.391	0.265	False	D-arabinose-5-phosphate isomerase (EC 5.3.1.13)
+PGF_08394843	8.18	289	51	0.481	0.244	False	Endonuclease III (EC 4.2.99.18)
+PGF_04370656	8.15	335	51	0.445	0.213	False	Chromosome (plasmid) partitioning protein ParA
+PGF_00053770	8.14	460	54	0.380	0.232	False	Aminomethyltransferase (glycine cleavage system T protein) (EC 2.1.2.10)
+PGF_06053106	8.13	332	53	0.446	0.150	False	RNA polymerase sigma factor RpoH
+PGF_00062023	8.13	292	51	0.476	0.089	False	Tryptophan synthase alpha chain (EC 4.2.1.20)
+PGF_00008469	8.05	393	50	0.406	0.221	False	Glutathione synthetase (EC 6.3.2.3)
+PGF_05657253	8.01	272	53	0.486	0.173	False	Ribose-5-phosphate isomerase A (EC 5.3.1.6)
+PGF_10535181	8.00	557	53	0.339	0.228	False	Tol-Pal system beta propeller repeat protein TolB
+PGF_10125426	7.98	484	52	0.363	0.174	False	Peptidoglycan glycosyltransferase FtsW (EC 2.4.1.129)
+PGF_04991657	7.88	453	51	0.370	0.182	False	Oxygen-independent coproporphyrinogen-III oxidase-like protein YggW
+PGF_00017190	7.86	357	50	0.416	0.315	False	Lipopolysaccharide ABC transporter, ATP-binding protein LptB
+PGF_00413295	7.86	375	51	0.406	0.189	False	tRNA pseudouridine(55) synthase (EC 5.4.99.25)
+PGF_07844318	7.64	819	52	0.267	0.472	False	3-phosphoshikimate 1-carboxyvinyltransferase (EC 2.5.1.19)
+PGF_04807486	7.64	366	51	0.399	0.153	False	tRNA dimethylallyltransferase (EC 2.5.1.75)
+PGF_02280759	7.54	279	51	0.452	0.109	False	Undecaprenyl diphosphate synthase (EC 2.5.1.31)
+PGF_10518532	7.52	391	53	0.380	0.215	False	D-alanine--D-alanine ligase (EC 6.3.2.4)
+PGF_00063974	7.52	413	52	0.370	0.263	False	UDP-N-acetylenolpyruvoylglucosamine reductase (EC 1.3.1.98)
+PGF_03295331	7.46	455	52	0.350	0.229	False	UDP-N-acetylglucosamine--N-acetylmuramyl-(pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase (EC 2.4.1.227)
+PGF_02623406	7.39	376	51	0.381	0.190	False	FMN adenylyltransferase (EC 2.7.7.2) / Riboflavin kinase (EC 2.7.1.26)
+PGF_00413208	7.29	311	53	0.413	0.217	False	tRNA (guanine(37)-N(1))-methyltransferase (EC 2.1.1.228)
+PGF_00016358	7.26	135	52	0.625	0.112	False	LSU ribosomal protein L20p
+PGF_05621995	7.25	370	53	0.377	0.260	False	Prolipoprotein diacylglyceryl transferase
+PGF_02224568	7.13	523	54	0.312	0.280	False	ATP phosphoribosyltransferase regulatory subunit (EC 2.4.2.17)
+PGF_00033936	7.12	322	53	0.397	0.139	False	Phosphoribosylaminoimidazole-succinocarboxamide synthase (EC 6.3.2.6)
+PGF_00423927	7.10	432	51	0.342	0.311	False	4-hydroxybenzoate polyprenyltransferase (EC 2.5.1.39)
+PGF_05740384	7.09	382	52	0.363	0.296	False	Formamidopyrimidine-DNA glycosylase (EC 3.2.2.23)
+PGF_00011634	7.02	571	53	0.294	0.329	False	HflK protein
+PGF_00066867	6.94	863	54	0.236	0.460	False	Xaa-Pro aminopeptidase (EC 3.4.11.9)
+PGF_03287477	6.85	276	52	0.412	0.205	False	ATP phosphoribosyltransferase (EC 2.4.2.17) => HisGs
+PGF_04505269	6.76	492	51	0.305	0.433	False	SSU ribosomal protein S2p (SAe)
+PGF_02463284	6.74	221	51	0.454	0.129	False	Recombination protein RecR
+PGF_10525969	6.66	397	52	0.334	0.272	False	Magnesium and cobalt efflux protein CorC
+PGF_00902417	6.64	416	51	0.325	0.279	False	HflC protein
+PGF_00048643	6.62	187	51	0.484	0.118	False	Ribonucleotide reductase transcriptional regulator NrdR
+PGF_10518765	6.58	1526	50	0.168	0.673	False	Replicative DNA helicase (DnaB) (EC 3.6.4.12)
+PGF_04571944	6.51	284	51	0.386	0.219	False	NADH-ubiquinone oxidoreductase chain C (EC 1.6.5.3)
+PGF_03751076	6.47	295	51	0.377	0.279	False	Riboflavin synthase eubacterial/eukaryotic (EC 2.5.1.9)
+PGF_04695681	6.41	402	51	0.320	0.346	False	Serine acetyltransferase (EC 2.3.1.30)
+PGF_03316046	6.09	619	51	0.245	0.321	False	Threonine synthase (EC 4.2.3.1)
+PGF_02517283	6.02	406	52	0.299	0.354	False	Segregation and condensation protein A
+PGF_03589438	5.94	682	50	0.228	0.539	False	Protein translocase subunit SecF
+PGF_06180597	5.79	220	51	0.390	0.342	False	LSU ribosomal protein L13p (L13Ae)
+PGF_04007946	5.75	284	52	0.341	0.259	False	Octanoate-[acyl-carrier-protein]-protein-N-octanoyltransferase (EC 2.3.1.181)
+PGF_02473279	5.70	323	51	0.317	0.250	False	tRNA (cytidine(32)/uridine(32)-2'-O)-methyltransferase (EC 2.1.1.200)
+PGF_04845029	5.59	202	52	0.393	0.409	False	LSU ribosomal protein L19p
+PGF_04127376	5.49	563	51	0.231	0.449	False	Twin-arginine translocation protein TatC
+PGF_01534078	5.35	742	52	0.197	0.527	False	Murein endolytic transglycosylase MltG
+PGF_00060431	5.31	91	51	0.556	0.216	False	Translation initiation factor 1
+PGF_06649360	4.74	418	53	0.232	0.451	False	Segregation and condensation protein B
+PGF_00049858	4.69	115	52	0.438	0.319	False	SSU ribosomal protein S18p @ SSU ribosomal protein S18p, zinc-independent
+PGF_00422918	4.22	677	53	0.162	0.669	False	Deoxycytidine triphosphate deaminase (EC 3.5.4.13)
+PGF_00049901	4.15	252	53	0.262	0.454	False	SSU ribosomal protein S6p
+PGF_10444145	3.97	101	51	0.395	0.212	False	ATP synthase F0 sector subunit c (EC 3.6.3.14)
+
