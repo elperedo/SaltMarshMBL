@@ -17,10 +17,10 @@ Num aligned nucleotides	158136
 Best protein model found by RAxML	LG
 Branch support method	RAxML Fast Bootstrapping
 RAxML likelihood	-6743388.0980
-RAxML Command Line
-Goal: Analyze proteins with model 'AUTO' to find best substitution model.
-raxmlHPC-PTHREADS-SSE3 -s SOX07162023_proteins.afa -n SOX07162023_proteins -m PROTCATAUTO -p 12345 -T 12 -e 10
-Process time: 3032.174 seconds
-Goal: Find best tree.
-raxmlHPC-PTHREADS-SSE3 -s SOX07162023.afa -n SOX07162023 -m GTRCAT -q SOX07162023.partitions -p 12345 -T 12 -f a -x 12345 -N 100
-Process time: 26613.097 seconds
+
+### RAxML Command Line
+#### Goal: Analyze proteins with model 'AUTO' to find best substitution model.
+raxmlHPC-PTHREADS-SSE3 -s SOX07162023_proteins.afa -n SOX_proteins -m PROTCATAUTO -p 12345 -T 12 -e 10
+#### Goal: Find best tree.
+raxmlHPC-PTHREADS-SSE3 -s SOX07162023.afa -n SOX -m GTRCAT -q SOX07162023.partitions -p 12345 -T 12 -f a -x 12345 -N 100
+
