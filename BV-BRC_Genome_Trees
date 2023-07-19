@@ -1,18 +1,19 @@
 https://www.bv-brc.org/app/PhylogeneticTree
 
-# Fig. 3 SOX tree
 ## Tree Analysis Statistics
 ### Max allowed deletions	5
 ### Max allowed duplications	5
 ### Single-copy genes requested	100
+### Alignment program	mafft
+### RAxML version 8.2.11
+### Gene families are ranked by alignment score combining mean per-position variability, alignment length, and gappiness.
 
+## Fig. 3 SOX tree
 Single-copy genes found	100
 Num protein alignments	100
-Alignment program	mafft
 Num aligned amino acids	52712
 Num CDS alignments	100
 Num aligned nucleotides	158136
-RAxML version 8.2.11
 Best protein model found by RAxML	LG
 Branch support method	RAxML Fast Bootstrapping
 RAxML likelihood	-6743388.0980
@@ -24,8 +25,7 @@ raxmlHPC-PTHREADS-SSE3 -s SOX07162023_proteins.afa -n SOX_proteins -m PROTCATAUT
 raxmlHPC-PTHREADS-SSE3 -s SOX07162023.afa -n SOX -m GTRCAT -q SOX07162023.partitions -p 12345 -T 12 -f a -x 12345 -N 100
 
 Gene Family Statistics
-Gene families are ranked by alignment score combining mean per-position variability, alignment length, and gappiness.
-PGFam	Align.Score	Align.Length	Num. Seqs	Mean. Sqr Freq	Prop. Gaps	Used In. Analysis	Product
+PGFam	Align.Score	Align.Length	Num.Seqs	Mean.Sqr Freq	Prop.Gaps	Used In Analysis	Product
 PGF_00416410	18.74	1274	51	0.525	0.202	True	Carbamoyl-phosphate synthase large chain (EC 6.3.5.5)
 PGF_00057483	15.09	425	51	0.732	0.031	True	Transcription termination factor Rho
 PGF_03104485	14.73	738	54	0.542	0.121	True	Polyribonucleotide nucleotidyltransferase (EC 2.7.7.8)
@@ -196,3 +196,117 @@ PGF_00422918	4.22	677	53	0.162	0.669	False	Deoxycytidine triphosphate deaminase 
 PGF_00049901	4.15	252	53	0.262	0.454	False	SSU ribosomal protein S6p
 PGF_10444145	3.97	101	51	0.395	0.212	False	ATP synthase F0 sector subunit c (EC 3.6.3.14)
 
+## Fig. 3 SRB tree
+Tree Analysis Statistics
+
+Single-copy genes found	92
+Num protein alignments	92
+Num aligned amino acids	44440
+Num CDS alignments	91
+Num aligned nucleotides	131871
+Best protein model found by RAxML	LG
+Branch support method	RAxML Fast Bootstrapping
+RAxML likelihood	-4677604.7617
+
+RAxML Command Line
+Goal: Analyze proteins with model 'AUTO' to find best substitution model.
+raxmlHPC-PTHREADS-SSE3 -s new_srb_07152023_proteins.afa -n new_srb_07152023_proteins -m PROTCATAUTO -p 12345 -T 12 -e 10
+Process time: 1694.490 seconds
+Goal: Find best tree.
+raxmlHPC-PTHREADS-SSE3 -s new_srb_07152023.afa -n new_srb_07152023 -m GTRCAT -q new_srb_07152023.partitions -p 12345 -T 12 -f a -x 12345 -N 100
+Process time: 12195.112 seconds
+
+Gene Family Statistics
+PGFam	Align.Score	Align.Length	Num.Seqs	Mean.Sqr Freq	Prop.Gaps	Used In Analysis	Product
+PGF_02704551	16.58	1767	41	0.394	0.282	True	DNA-directed RNA polymerase beta' subunit (EC 2.7.7.6)
+PGF_00529632	14.04	909	37	0.466	0.160	True	Chaperone protein ClpB (ATP-dependent unfoldase)
+PGF_03104485	13.36	772	39	0.481	0.113	True	Polyribonucleotide nucleotidyltransferase (EC 2.7.7.8)
+PGF_05195027	13.30	491	38	0.600	0.111	True	ATP synthase beta chain (EC 3.6.3.14)
+PGF_00416129	13.01	602	40	0.530	0.116	True	CTP synthase (EC 6.3.4.2)
+PGF_00950554	12.99	723	37	0.483	0.157	True	Excinuclease ABC subunit B
+PGF_04569524	12.90	566	38	0.542	0.142	True	ATP synthase alpha chain (EC 3.6.3.14)
+PGF_05340948	12.41	957	40	0.401	0.143	True	DNA mismatch repair protein MutS
+PGF_07830674	12.09	1027	37	0.377	0.212	True	Alanyl-tRNA synthetase (EC 6.1.1.7)
+PGF_00008326	12.08	824	38	0.421	0.303	True	Glutaminyl-tRNA synthetase (EC 6.1.1.18)
+PGF_10048015	12.03	518	38	0.528	0.104	True	Inosine-5'-monophosphate dehydrogenase (EC 1.1.1.205) / CBS domain
+PGF_02516909	12.00	446	36	0.568	0.061	True	Enolase (EC 4.2.1.11)
+PGF_10347756	11.84	1017	38	0.371	0.163	True	DNA polymerase I (EC 2.7.7.7)
+PGF_10525419	11.82	1086	41	0.359	0.198	True	Translation initiation factor 2
+PGF_08675943	11.70	1354	40	0.318	0.189	True	Transcription-repair coupling factor
+PGF_06812369	11.62	1087	40	0.352	0.273	True	Leucyl-tRNA synthetase (EC 6.1.1.4)
+PGF_05171623	11.40	1190	40	0.330	0.232	True	Isoleucyl-tRNA synthetase (EC 6.1.1.5)
+PGF_00016393	10.97	281	38	0.654	0.027	True	LSU ribosomal protein L2p (L8e)
+PGF_05500127	10.80	1092	38	0.327	0.257	True	Valyl-tRNA synthetase (EC 6.1.1.9)
+PGF_00052238	10.68	513	40	0.471	0.156	True	Signal recognition particle protein Ffh
+PGF_05877811	10.55	598	36	0.432	0.192	True	AAA+ ATPase superfamily protein YifB/ComM, associated with DNA recombination
+PGF_00047078	10.44	378	37	0.537	0.141	True	RecA protein
+PGF_00062027	10.43	442	37	0.496	0.129	True	Tryptophan synthase beta chain (EC 4.2.1.20)
+PGF_00063999	10.38	530	37	0.451	0.132	True	UDP-N-acetylmuramate--L-alanine ligase (EC 6.3.2.8)
+PGF_00030640	10.12	414	39	0.497	0.138	True	Peptide chain release factor 1
+PGF_09019918	9.99	476	36	0.458	0.140	True	Glutamate-1-semialdehyde 2,1-aminomutase (EC 5.4.3.8)
+PGF_00033095	9.92	867	37	0.337	0.141	True	Phenylalanyl-tRNA synthetase beta chain (EC 6.1.1.20)
+PGF_00051525	9.86	575	37	0.411	0.267	True	Seryl-tRNA synthetase (EC 6.1.1.11)
+PGF_08155727	9.80	930	38	0.321	0.225	True	DNA translocase FtsK
+PGF_05049118	9.79	393	38	0.494	0.127	True	Holliday junction ATP-dependent DNA helicase RuvB (EC 3.6.4.12)
+PGF_00710545	9.77	600	37	0.399	0.210	True	Lysyl-tRNA synthetase (class II) (EC 6.1.1.6)
+PGF_03609651	9.70	775	40	0.349	0.226	True	Methionyl-tRNA synthetase (EC 6.1.1.10)
+PGF_01089656	9.67	565	38	0.407	0.119	True	Ribonuclease G
+PGF_00033237	9.49	367	38	0.495	0.107	True	Phosphate starvation-inducible protein PhoH, predicted ATPase
+PGF_00489714	9.43	355	38	0.501	0.133	True	Porphobilinogen synthase (EC 4.2.1.24)
+PGF_10518765	9.39	525	36	0.410	0.161	True	Replicative DNA helicase (DnaB) (EC 3.6.4.12)
+PGF_00066502	9.26	476	39	0.424	0.115	True	Asparaginyl-tRNA synthetase (EC 6.1.1.22)
+PGF_00033359	9.23	392	39	0.466	0.109	True	Phospho-N-acetylmuramoyl-pentapeptide-transferase (EC 2.7.8.13)
+PGF_00900122	9.09	506	38	0.404	0.181	True	UDP-N-acetylglucosamine 1-carboxyvinyltransferase (EC 2.5.1.7)
+PGF_00019038	9.09	826	39	0.316	0.449	True	ATP-dependent hsl protease ATP-binding subunit HslU
+PGF_05767868	9.05	256	40	0.566	0.041	True	Probable transcriptional regulatory protein YebC
+PGF_00016357	9.05	237	38	0.588	0.034	True	LSU ribosomal protein L1p (L10Ae)
+PGF_00007024	9.03	530	37	0.392	0.161	True	GTP-binding protein EngA
+PGF_00020984	9.00	335	37	0.492	0.117	True	Methenyltetrahydrofolate cyclohydrolase (EC 3.5.4.9) / Methylenetetrahydrofolate dehydrogenase (NADP+) (EC 1.5.1.5)
+PGF_02061452	8.98	442	38	0.427	0.178	True	Queuine tRNA-ribosyltransferase (EC 2.4.2.29)
+PGF_03520151	8.88	496	39	0.399	0.208	True	Cell division protein FtsZ
+PGF_07015581	8.84	447	37	0.418	0.175	True	Carbamoyl-phosphate synthase small chain (EC 6.3.5.5)
+PGF_00049889	8.84	224	37	0.590	0.040	True	SSU ribosomal protein S3p (S3e)
+PGF_03004613	8.75	478	40	0.400	0.124	True	Histidyl-tRNA synthetase (EC 6.1.1.21)
+PGF_02019462	8.72	403	41	0.434	0.187	True	Phenylalanyl-tRNA synthetase alpha chain (EC 6.1.1.20)
+PGF_00422271	8.63	418	37	0.422	0.186	True	DNA-directed RNA polymerase alpha subunit (EC 2.7.7.6)
+PGF_00008611	8.60	356	40	0.456	0.088	True	Glycerol-3-phosphate dehydrogenase [NAD(P)+] (EC 1.1.1.94)
+PGF_04333086	8.59	901	39	0.286	0.291	True	DNA ligase (NAD(+)) (EC 6.5.1.2)
+PGF_00033936	8.51	330	40	0.468	0.133	True	Phosphoribosylaminoimidazole-succinocarboxamide synthase (EC 6.3.2.6)
+PGF_02029783	8.48	415	39	0.416	0.184	True	GTP-binding protein Obg
+PGF_00048846	8.36	546	37	0.358	0.177	True	Ribosomal protein S12p Asp88 (E. coli) methylthiotransferase (EC 2.8.4.4)
+PGF_00046403	8.23	613	39	0.332	0.237	True	RNA polymerase sigma-54 factor RpoN
+PGF_00066906	8.22	371	37	0.427	0.167	True	Aspartate carbamoyltransferase (EC 2.1.3.2)
+PGF_02277678	8.22	471	38	0.379	0.185	True	Phosphoglycerate kinase (EC 2.7.2.3)
+PGF_00926109	8.18	785	39	0.292	0.277	True	Arginyl-tRNA synthetase (EC 6.1.1.19)
+PGF_00016340	8.11	125	36	0.725	0.022	True	LSU ribosomal protein L14p (L23e)
+PGF_03375688	8.03	424	37	0.390	0.180	True	S-methyl-5-thioribose-1-phosphate isomerase (EC 5.3.1.23)
+PGF_02923127	7.86	307	38	0.449	0.229	True	Uridylate kinase (EC 2.7.4.22)
+PGF_06941403	7.86	152	39	0.638	0.203	True	SSU ribosomal protein S12p (S23e)
+PGF_07695531	7.74	162	37	0.608	0.130	True	LSU ribosomal protein L11p (L12e)
+PGF_07063065	7.69	647	40	0.302	0.303	True	Transcription termination protein NusA
+PGF_05935795	7.66	805	37	0.270	0.446	True	Replication-associated recombination protein RarA
+PGF_00421679	7.57	757	37	0.275	0.236	True	DNA primase DnaG
+PGF_00420903	7.55	437	39	0.361	0.261	True	D-arabinose-5-phosphate isomerase (EC 5.3.1.13)
+PGF_00016343	7.54	143	38	0.630	0.054	True	LSU ribosomal protein L16p (L10e)
+PGF_00049837	7.50	132	38	0.652	0.020	True	SSU ribosomal protein S11p (S14e)
+PGF_00285620	7.38	281	36	0.440	0.273	True	ATP-dependent Clp protease proteolytic subunit ClpP (EC 3.4.21.92)
+PGF_02280759	7.30	290	37	0.429	0.127	True	Undecaprenyl diphosphate synthase (EC 2.5.1.31)
+PGF_00039342	7.21	382	38	0.369	0.289	True	2-Keto-3-deoxy-D-manno-octulosonate-8-phosphate synthase (EC 2.5.1.55)
+PGF_04574228	7.15	285	36	0.424	0.140	True	Triosephosphate isomerase (EC 5.3.1.1)
+PGF_00417840	7.12	461	36	0.332	0.241	True	Chorismate synthase (EC 4.2.3.5)
+PGF_03174068	6.94	199	36	0.492	0.110	True	Transcription antitermination protein NusG
+PGF_00062045	6.91	377	37	0.356	0.174	True	Tryptophanyl-tRNA synthetase (EC 6.1.1.2)
+PGF_00015259	6.90	309	38	0.393	0.095	True	ATP synthase gamma chain (EC 3.6.3.14)
+PGF_01054379	6.78	508	37	0.301	0.136	True	Adenylosuccinate lyase (EC 4.3.2.2) @ SAICAR lyase (EC 4.3.2.2)
+PGF_04505269	6.57	427	40	0.318	0.337	True	SSU ribosomal protein S2p (SAe)
+PGF_00017190	6.50	429	39	0.314	0.417	True	Lipopolysaccharide ABC transporter, ATP-binding protein LptB
+PGF_00017479	6.47	563	36	0.273	0.443	True	Lipoyl synthase (EC 2.8.1.8)
+PGF_00426236	6.39	739	36	0.235	0.472	True	(E)-4-hydroxy-3-methylbut-2-enyl-diphosphate synthase (flavodoxin) (EC 1.17.7.3)
+PGF_06936561	6.39	307	37	0.364	0.306	True	Translation elongation factor Ts
+PGF_00016358	6.21	124	36	0.558	0.053	True	LSU ribosomal protein L20p
+PGF_04244475	6.15	251	36	0.388	0.137	True	Adenylate kinase (EC 2.7.4.3)
+PGF_00912265	6.07	468	37	0.281	0.291	True	tRNA-dihydrouridine synthase DusB
+PGF_00049860	5.88	109	37	0.563	0.147	True	SSU ribosomal protein S19p (S15e)
+PGF_04762552	5.81	237	36	0.378	0.292	True	Phosphopantetheine adenylyltransferase (EC 2.7.7.3)
+PGF_00049896	5.75	280	36	0.344	0.409	True	SSU ribosomal protein S5p (S2e)
+PGF_00060478	4.96	241	36	0.320	0.351	True	Translation initiation factor 3
