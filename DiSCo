@@ -1,1 +1,4 @@
+https://github.com/Genome-Evolution-and-Ecology-Group-GEEG/DiSCo
 
+DRAM.py strainer --identifiers K11180 K11181 -i annotations.tsv -f genes.faa -o dsrAB_genes_DRAM_strainer.faa
+DiSCo.pl -i dsrAB_genes_DRAM_strainer.faa -o DiSCO_dsrAB
